@@ -1,0 +1,337 @@
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.App{
+    background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+
+.primary {
+    color: orange;
+}
+
+.font-xl{
+    font-size: 72px;
+}
+
+
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background: #f0f0f0;
+}
+
+.logo{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #555;
+}
+
+.nav-bar-links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-bar-links{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar-account{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-page-links{
+    display: block;
+    padding: 10px;
+}
+
+.form-labels{
+    padding-right: 30px;
+}
+
+.errordiv {
+    color: red;
+}
+
+.submit-button-pwreset{
+    position: relative;
+    left: 50px;
+    padding-top: 30px;
+}
+
+.mc-button{
+    position: relative;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.next-question-btn{
+    position: relative;
+    top: 40px;
+    
+}
+
+.last-question-btn{
+    position: relative;
+    top: 50px;
+    left: 340px;
+}
+
+.info-btn{
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+.info-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 500px;
+    bottom: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.info-wrapper{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid black;
+    border-radius: 65px / 50px;
+    margin: 0 auto;
+}
+
+.extra-information{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    top: 15px;
+}
+
+.progress-bar-stuff{
+    position: relative;
+    display: inline-block;
+    top: 200px;
+    right: 137px;
+}
+
+.progress-bar-container{
+    width: 500px;
+    height: 20px;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.575);
+    border-radius: 60px / 50px
+}
+
+.progress-bar{
+    width: 0%;
+    height: 20px;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 60px / 50px
+}
+
+.progress-bar-label{
+    position: relative;
+    top: 10px;
+}
+
+.open-navigation-btn{
+    position: relative;
+    right: 212px;
+    margin: 10px;
+}
+
+.navigation-buttons-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 375px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.jump-question-btn{
+    width:100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 60px / 50px;
+}
+
+.pdf-btn{
+    position: relative;
+    width: 90px;
+    height: 30px;
+    left: 450px;
+}
+
+#register-name-input{
+    position: relative;
+    left: 20px;
+}
+
+#register-email-input{
+    position: relative;
+    right: 12px;
+}
+
+#register-password-input{
+    position: relative;
+    left: 5px;
+}
+
+#registration-submit-btn{
+    position: relative;
+    top: 30px;
+}
+
+.registrationpage-link-tologin{
+    position: relative;
+    top: 60px;
+}
+
+.registration-page-container{
+    position: relative;
+    top: 170px;
+}
+
+.registration-input-fields{
+    margin: 10px;
+}
+
+#registration-title-text{
+    position: relative;
+    top: 80px;
+}
+
+.addclient-container{
+    left: 22px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 20px;
+}
+
+.addclient-input-fields{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.label-input-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addclient-btn{
+    position: relative;
+    top: 30px;
+    height: 30px;
+    background-color: #599ce9;
+    border-radius: 50px / 50px
+}
+
+.client-list-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 100px;
+}
+
+.show-row-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 20px;
+}
+
+.row-container-clientlist{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 20px;
+}
+
+.elements-in-row{
+    margin: 5px 7px 10px;
+}
+
+.insert-client-btn{
+    position: relative;
+    top: 90px;
+    height: 30px;
+    background-color: #599ce9;
+    border-radius: 50px / 50px;
+    z-index: 10;
+}
+
+.add-new-client-menu-btn{
+  margin: auto;
+  border: 1.5px solid rgb(0, 119, 128);
+  padding: 10px;
+}
+
+.client-delete-btn{
+    position: relative;
+    top: 95px;
+}
+
+.ui-database-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 250px;
+}
+
+.ui-database-row-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.delete-btns{
+    position: relative;
+}
+
+.ui-database-delete-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 105px;
+    gap: 30px;
+}
